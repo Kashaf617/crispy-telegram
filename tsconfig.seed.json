@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "./.seed-out",
+    "target": "ES2017",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["scripts/seed.ts", "models/**/*.ts", "lib/db.ts"],
+  "exclude": ["node_modules"]
+}
